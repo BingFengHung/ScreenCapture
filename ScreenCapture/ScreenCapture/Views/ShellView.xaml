@@ -10,6 +10,8 @@
         <local:ShellViewModel/>
     </UserControl.DataContext>
     <Grid>
-
+        <Button Content="Test"
+                Command="{Binding OpenDialogCommand}"
+                CommandParameter="1"/>
     </Grid>
 </UserControl>
